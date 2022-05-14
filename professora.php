@@ -16,7 +16,7 @@ $nor=$result->num_rows;
 for($i=0; $i<$nor; $i++)
 {
     $row = $result->fetch_assoc();
-    echo "Course Title: ", $row["Cnum"], "<br>";
+    echo "Course Title: ", $row["Ctitle"], "<br>";
     echo "Room: ", $row["Classroom"], "<br>";
     echo "Day: ", $row["Meeting_days"], "<br>";
     echo "Start: ", $row["Begin_time"], "<br>";
