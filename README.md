@@ -1,5 +1,5 @@
 # Description
 
-The architecture represents an academic server where a professor or student can request information by inputting Campus Number as identification.
+The architecture represents an academic server where a professor or student can request class information by inputting various form of identifications.
 
 All files and a locally host database are required to properly function.
